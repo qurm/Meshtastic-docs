@@ -38,41 +38,43 @@ That's what this document aims to achieve.
 sources, this has been done before.
 
 ### Types (Functions) of documentation.
+These four generic types (Tutorials, Guides, Reference, Explanation) cover the various ways that people learn, given their level of knowledge about Meshtastic.  Even experienced technical people may need to start with a Tutorial.
 
-| Function: | Tutorials | Guides  | Reference  | Explanation |
-| -----|-------- |----------| -----|---|
-| *Purpose* | Learning  | a goal | information | understanding |
-| Must      |allow the newcomer to get started|show how to solve a specific problem| fully describe the features	|explain how and why
-| Form/Structure | Lesson |    step-by-step | factual description |discussion, explanation|
-| Examples | Video on how to setup and run Meshtastic.   |  User guide for the Meshtastic Android app.  How to install and run the Python app. | List of commands and parameters.  API reference. | How does the mesh algorithm work? |
+| Function: |   Tutorials  | Guides  |   Reference  |   Explanation  |
+| ------|------- |--------|------|------|
+| **Purpose:** | Accessible Learning  | Acheive a goal | information | understanding |
+| **Must do:**     |allow a newcomer to get started|show how to solve a problem, how to use the application.| List and fully describe all features.|Explain how and why
+| **Structure:** | Lesson | Topics, and step-by-step | factual description |discussion, explanation|
+| **Form:** | Sequential, steps. | User Guide, some explanation.| Lists, object-structured API guide|White paper, blog article.|
+| **Examples:** | Video on how to setup and run Meshtastic.   |  User guide for the Meshtastic Android app.  How to install and run the Python app. | List of commands and parameters.  API reference. |   How does the mesh algorithm work? |
+
+The above types aren't necessarily a structure, but help with the type of content that goes in the structure.
 
 There are other documents like to-do lists, specifications, test plans, issues - these are for a small audience of developers and used in the development process.  Even developers need documents, more towards the right-hand columns.
 
 
-allow the newcomer to get started	show how to solve a specific problem	describe the machinery	explain
-
 ### People who need documents
 
-| Type | New | User | Enthusiast (technical or functional) | Contributor (Developer, Author)  | Maintainer |
+| Persona: | New | User | Enthusiast (technical or functional) | Contributor (Developer, Author)  | Maintainer |
 | -----|-------- |----------| -----|---| ---|
-| Persona |   | |  |  |
-| They think:      |This project looks interesting, how do I find out if this is for me?|I just want to use Meshtastic.| I'd like to experiment, configure and learn more, and suggest use-cases and ideas.	|I'd like to contribute to code, documentation, testing. | I can maintain a repo or application, and review, edit and  publish.
+|  |   | |  |  |
+| They think:      |This project looks interesting, how do I find out if this is for me?|I just want to use Meshtastic and find the features I need.| I'd like to experiment, configure and learn more, and suggest use-cases and ideas.	|I'd like to contribute to code, documentation, testing. | I can maintain a repo or application, and review, edit and  publish.
 |  |  |     |   |  |
-| They need to: | read about capabilities, understand what they need to get started.   |  get hardware, install and run some Meshtastic apps, report issues and keep updated. | may want to test range or performance, or build a IoT sensor mesh.  | Implement a feature, or fix an issue.  Write a document or make a video. | Review Pull requests, build a release, publish documentation.
+| They need to: | Read about functionality, decide if useful to them, understand how to get started.| Get hardware, install and run some Meshtastic apps, report issues and keep updated. | May want to test range or performance, or build a IoT sensor mesh.  | Implement a feature, or fix an issue.  Write a document or make a video. Understand how the project works, and who does what.| Review Pull requests, build a release, publish documentation.
 
 
-How do we work?
+### How do we work?
 
 
-Who needs what?
+### Who needs what?
 
 |  | Tutorials | Guides  | Reference  | Explanation |
 | -----|-------- |----------| -----|---|
-| **New** | ***  | a goal | information | understanding |
-| **User**      |||		|explain
-| **Enthusiast** | Lesson |    step-by-step | factual description |discussion, explanation|
-| **Contributor** |    |    |   |  |
-| **Maintainer** |    |    |   |  |
+| **New** | ***  | **|   |   |
+| **User**      |**|***|	*|**|
+| **Enthusiast** | * | * |*** |***|
+| **Contributor** |    | *   | ***  | *** |
+| |    |    |   |  |
 
 https://www.writethedocs.org/guide/docs-as-code/#docs-as-code-at-write-the-docs
 
@@ -82,8 +84,8 @@ https://www.writethedocs.org/guide/docs-as-code/#docs-as-code-at-write-the-docs
 Credit to the Write the Docs community for many sources of good practice.
 https://www.writethedocs.org/guide/
 
-All credit to Daniele Procida, who is actve
+All credit to Daniele Procida, for the conceot of the Four functions of documentation.  He is active in the Python community and Write the Docs. 
 https://2017.pycon-au.org/schedule/presentation/15/
-
+https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/
 
 https://documentation.divio.com/introduction/
